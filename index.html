@@ -1,20 +1,46 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>最新地址導航</title>
+    <title>燃燈佛曆 - 導航入口</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #f4f4f4; }
-        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
-        button { background: #0070f3; color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 16px; }
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap');
+        body { font-family: 'Noto Serif TC', serif; background-color: #fcfaf2; }
     </style>
 </head>
-<body>
-    <div class="card">
-        <h2>歡迎訪問</h2>
-        <p>若主站無法訪問，請收藏此頁面獲取最新地址</p>
-        <button onclick="window.location.href='https://rdfoli.de'">點擊進入主站</button>
+<body class="min-h-screen flex items-center justify-center p-4">
+    <div class="max-w-md w-full bg-white/90 backdrop-blur-md p-10 rounded-[3rem] shadow-2xl border border-amber-100 text-center">
+        <div class="mb-6 text-6xl drop-shadow-sm">🪷</div>
+        
+        <h1 class="text-2xl font-bold text-amber-900 mb-2">燃燈佛曆</h1>
+        <p class="text-amber-700/60 text-sm mb-10">勤修清淨波羅蜜，恆不忘失菩提心</p>
+
+        <div class="space-y-6">
+            <a href="https://www.xfoli.org" 
+               class="group block w-full py-5 bg-amber-600 hover:bg-amber-700 text-white font-bold rounded-2xl transition-all shadow-lg hover:shadow-amber-200 active:scale-95 text-lg">
+                🚀 進入正式站
+            </a>
+
+            <a href="https://foli-s2wx.vercel.app" 
+               class="block w-full py-3 text-amber-800/40 text-xs hover:text-amber-700 hover:underline transition-all">
+                線路不暢？試試備用地址（海外用戶）
+            </a>
+        </div>
+
+        <div class="mt-10 p-5 bg-amber-50/50 rounded-2xl border border-amber-100/50 text-left">
+            <h3 class="text-sm font-bold text-amber-800 mb-3 flex items-center">
+                <span class="mr-2">📲</span> 推薦：安裝到桌面
+            </h3>
+            <div class="text-[11px] text-amber-700 space-y-2 leading-relaxed opacity-90">
+                <p>• <strong>蘋果 (iOS)：</strong>點擊下方「分享」<img src="https://img.icons8.com/ios/20/733317/share-rounded.png" class="inline w-3 h-3 mx-0.5"/> ➡ <strong>「加入主畫面」</strong>。</p>
+                <p>• <strong>安卓/電腦：</strong>點擊菜單 <img src="https://img.icons8.com/ios-glyphs/20/733317/menu-2.png" class="inline w-3 h-3 mx-0.5"/> ➡ <strong>「安裝應用」</strong>。</p>
+                <p class="pt-2 border-t border-amber-200/50 text-[10px] text-amber-600/70">＊安裝後可支持離線查看，且不受網址失效影響。</p>
+            </div>
+        </div>
+
+        <p class="mt-10 text-[10px] text-amber-900/30 tracking-widest uppercase">Version 20.9 | 燈燈相傳 願願無盡</p>
     </div>
 </body>
 </html>
